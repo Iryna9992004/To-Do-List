@@ -1,0 +1,17 @@
+#list1 .form-control {
+    border-color: transparent;
+  }
+  #list1 .form-control:focus {
+    box-shadow: none;
+  }
+  #list1 .select-input.form-control[readonly]:not([disabled]) {
+    background-color: #fbfbfb;
+  }
+ 
+.none{
+  display: none;
+}
+.completed{
+  text-decoration: line-through;
+  color:gray;
+}

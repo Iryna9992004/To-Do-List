@@ -6,6 +6,7 @@ const addDate = document.querySelector('.add-date');
 let starType="";
 
 let myDayTasks = [];
+
 if(localStorage.getItem('myDayTasks')){
   myDayTasks=JSON.parse(localStorage.getItem('myDayTasks'));
 }
@@ -138,7 +139,6 @@ function completed(event) {
     task.done = !task.done;
      saveToLS();
   }
- 
 }
 function important(event) {
  if(event.target.dataset.action==='important'){
